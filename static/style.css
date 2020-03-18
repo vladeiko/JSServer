@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1920px;
+    position: relative;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------header-------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    height: 687px;
+}
+
+.fullscreen-bg {
+    position: relative;
+    height: 687px;
+    width: 1920px;
+    overflow: hidden;
+}
+
+.fullscreen-bg__video {
+    z-index: -100;
+    position: absolute;
+    width: 1920px;
+}
+
+.headLogo {
+    height: 200px;
+    width: 200px;
+    left: 0;
+    top 0;
+    position: absolute;
+    padding: 10px;
+}
+
+.fullscreen-bg h1 {
+    position: absolute;
+    top: 200px;
+    left: 504px;
+    color: #fff;
+    font-size: 88px;
+    width: 976px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.fullscreen-bg .border{
+    position: absolute;
+    bottom: 90px;
+    width: 1920px;
+    border-top: 2px solid #808080;
+}
+
+.fullscreen-bg ul {
+    list-style: none;
+    left: 345px;
+    bottom: 20px;
+    position: absolute;
+}
+.fullscreen-bg ul li {
+    display: inline-block;
+}
+
+.fullscreen-bg ul li a {
+    text-decoration: none;
+    color: #ECECEC;
+    font-size: 48px;
+    padding-right: 146px;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------info-------------------------------------------------------------------------------------------------------------------------*/
+
+
+.info {
+    height: 879px;
+    background-color: #0F1722;
+    opacity: .92;
+} 
+
+.info .fone-india{
+    height: 879px;
+    position: relative;
+    z-index: -200;
+}
+
+.info h2 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    padding-top: 121px;
+    padding-bottom: 157px;
+}
+
+.info p {
+    color: #fff;
+    font-size: 48px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 1262px;
+}
+
+
+.info .imgJS img{
+    opacity: .6;
+    z-index: -100;
+}
+
+.info .imgJS img.one {
+    position: absolute;
+    left: 50px;
+    top: 525px;
+}
+
+.info .imgJS img.two {
+    position: absolute;
+    left: 872px;
+    top: 570px;
+}
+
+.info .imgJS img.three {
+    position: absolute;
+    left: 550px;
+    top: 70px;
+}
+
+.info .imgJS img.four {
+    position: absolute;
+    left: 1554px;
+    bottom: 40px;  
+}
+
+.info .imgJS img.five {
+    position: absolute;
+    right: 180px;
+    top: 40px;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------news-------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.news {
+    height: 1748px;
+    background-color: #fff;
+}
+
+.news .newsH {
+    padding-top: 60px;
+    color: #4A69B6;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.news .newsH h2 {
+    display: inline-block;
+    border-bottom: 1px solid #4A69B6;
+    font-weight: 500;
+    font-size: 72px;
+}
+
+
+.mainNews {
+    position: relative;
+}
+
+
+.mainNews .left1 {
+    left: 270px;
+    top: 286px;
+    position: absolute;
+}
+
+.mainNews .left2 {
+    left: 270px;
+    top: 1268px;
+    position: absolute;
+}
+
+.mainNews .right {
+    position: absolute;
+    top: 777px;
+    right: 270px;
+}
+
+.textOpacity {
+    position: absolute;
+    width: 630px;
+    bottom: 15px;
+    left: 25px;
+}
+
+.textOpacity p{
+    color: #fff;
+    font-size: 36px;    
+}
+
+.Polotno {
+    height: 81px;
+    width: 700px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    opacity: .1;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------partners-------------------------------------------------------------------------------------------------------------------------*/
+
+.partners {
+    height: 836px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.partners .top {
+    height: 414px;
+    text-align: center;
+}
+
+.partners .bottom{
+	height: 422px;
+    background-color: #BDD1E7;
+}
+
+.partners .top h2 {
+    margin-top: 20px;
+    display: inline-block;
+    border-bottom: 1px solid #4A69B6;
+    font-weight: 500;
+    color: #4A69B6;
+    font-size: 72px;
+}
+
+.partners img {
+    background-color: #EBDEDE;
+    height: 368px;
+    width: 320px;
+}
+
+.partners .leftPhoto {
+    position: absolute;
+    left: 381px;
+    top: 230px;
+}
+
+.partners .middlePhoto {
+    position: absolute;
+    left: 765px;
+    top: 297px;
+}
+
+
+.partners .rightPhoto {
+    position: absolute;
+    top: 230px;
+    right: 441px;
+}
+
+
+
+.partners .Photo p{
+    color: #08205D;
+    font-size: 52px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------footer-------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.footer {
+    height: 1493px;
+    background-image: url(img/footerFone.jpg.png);
+    background-repeat: no-repeat; 
+}
+
+.footer .box {
+    margin: 0 auto;
+    background: rgb(255,255,255,0.1);
+    height: 864px;
+    width: 1065px;
+}
+
+.footer .box h2 {
+    font-size: 64px;
+    color: #B7B5B5;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.footer .box form {
+    color: #B7B5B5;
+    padding-left: 85px;
+}
+
+
+.footer .box form label {
+    display: block;
+    font-size: 36px;
+    color: #B7B5B5;
+}
+
+.footer .box form input[type="text"] , .footer .box form input[type="email"] {
+    width: 818px;
+    height: 80px;
+    background: rgb(255,255,255,0.1);
+    border: 1px solid #B7B5B5;  
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.footer .box form textarea {
+    resize: none;
+    width: 818px;
+    height: 170px;
+    background: rgb(255,255,255,0.1);
+    border: 1px solid #B7B5B5;  
+    margin-bottom: 25px;
+}
+
+.footer .box form button {
+    width: 294px;
+    height: 64px;
+    background: rgb(0,0,0,0.1);
+    font-size: 36px;
+    color: #B7B5B5;
+    border: none;
+    float: right;
+    margin-right: 160px;
+}
+
+.footer .footDown{
+        
+}
+
+.footer .footDown h2{
+    margin: 50px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+}
+
+
+.footer .footDown .text {
+    margin-left: 100px;
+}
+
+.footer .footDown .text p {
+    font-size: 36px;
+    color: #fff;
+}
+
+
+
+a.upper {
+    position: fixed;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    top: 80%;
+    left: 90%;
+    z-index: 300000;
+
+}
+
+
+a.upper img {
+    width: 100px;
+    height: 100px;
+    z-index: 300000;
+}
+
+a.upper:hover {
+    transform: rotate(90);
+    background: rgba(255,255,255,0.5);
+    border-radius: 50px;
+}
+
+
